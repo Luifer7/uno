@@ -15,7 +15,6 @@ section[id] {
     scroll-margin-top: 150px;
 }
 
-
 body{
     margin: 0;
     padding: 0;
@@ -91,7 +90,7 @@ body{
 }
 
 .item {
-    
+    cursor: pointer;
     width: 90px;
     color: transparent;
     font-size: 17px;
@@ -111,7 +110,7 @@ body{
     color: var(--color-item);
     overflow: hidden;
     width: 0;
-    transition: 1s;
+    transition: .5s;
     border-right: 3px solid var(--color-item);
     -webkit-text-stroke: 1px var(--color-item);
     
@@ -120,13 +119,13 @@ body{
 .item:hover::before {
     width: 100%;
     filter: drop-shadow(1px 1px 16px var(--color-item));
-    
 }
 
 .hola::before {
     width: 100%;
     filter: drop-shadow(1px 1px 16px var(--color-item));
 }
+
 
 
 .box_items_nav {
@@ -160,6 +159,7 @@ body{
     outline: none;
 
     animation: animate 5s alternate infinite;
+    cursor: pointer;
      
 }
 
@@ -211,6 +211,7 @@ body{
 }
 
 .responsive_item {
+    cursor: pointer;
     color: transparent;
     font-size: 36px;
     letter-spacing: 3px;
@@ -287,7 +288,6 @@ body{
         display: none;
     }
 
-    
     
     .bi-list {
         display: block;
