@@ -1,8 +1,7 @@
 
 
 
-
-
+window.addEventListener('load',   () => { 
 
 const btnMenubar = document.getElementById('icono_menu');
 btnMenubar.addEventListener('click', menuResponsive);
@@ -10,7 +9,7 @@ btnMenubar.addEventListener('click', menuResponsive);
 const btnCerrarMenubar = document.getElementById('icono_menu_cerrar');
 btnCerrarMenubar.addEventListener('click', CerrarMenuResponsive) 
 
-function menuResponsive() {
+function menuResponsive() {  
     document.getElementById('menu_responsive').classList.toggle('hide');
     document.getElementById('secciones_cards').classList.toggle('ocultar_seccion');
     document.getElementById('particles-js').classList.toggle('desaparecer_secciones');
@@ -26,7 +25,11 @@ function CerrarMenuResponsive() {
     document.getElementById('secciones_cards').classList.toggle('ocultar_seccion');
     document.getElementById('juan').classList.toggle('ocultar_seccion');
     document.getElementById('luis').classList.toggle('ocultar_seccion');
+
+    
 }
 
+
+})
 
 
