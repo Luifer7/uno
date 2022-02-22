@@ -1,11 +1,13 @@
 
 
+
 .secciones {
     
     height: 600px;
     display: flex;
     align-items: center;
     justify-content: center;
+   
 }
 
 
@@ -117,4 +119,5 @@ h3:nth-child(4) {
         font-size: 21px;
     }
 }
+
 
