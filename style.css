@@ -7,6 +7,10 @@
     --color-red: rgb(251, 255, 38) ;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 section[id] {
     scroll-margin-top: 150px;
 }
