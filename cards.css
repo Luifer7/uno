@@ -6,10 +6,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
+   
 }
 
 
 .box {
+    
     position: relative;
     width: 200px;
     height: 200px;
@@ -66,15 +69,14 @@
 }
 
 .ocultar_seccion {
-    display: none;
-    transition: .4s ease all;
+    transition: .3s ease all;
+    display: none;  
 }
 
 .desaparecer_secciones {
     transition: .2s ease all;
     opacity: 0;
 }
-
 
 
 
