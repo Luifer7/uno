@@ -1,6 +1,8 @@
 
 
 
+window.addEventListener('load',   () => {
+
 
 const itemsAdentro = document.querySelectorAll('.menu_box a[href^="#"]');
 const itemsAfuera =  document.querySelectorAll('.navegacion_items a[href^="#"]');
@@ -41,5 +43,19 @@ itemsAfuera.forEach(itemAfuera => {
 
 
 itemsAdentro.forEach (itemAdentro => {
-    itemAdentro.addEventListener('click', CerrarMenuResponsive )
+    itemAdentro.addEventListener('click', irASecciones )
+})
+
+function irASecciones() {
+    document.getElementById('menu_responsive').classList.toggle('hide');
+    document.getElementById('particles-js').classList.toggle('desaparecer_secciones');
+    document.getElementById('secciones_cards').classList.toggle('ocultar_seccion');
+    document.getElementById('juan').classList.toggle('ocultar_seccion');
+    document.getElementById('luis').classList.toggle('ocultar_seccion');
+
+}
+
+
+
+
 })
