@@ -7,6 +7,11 @@
     --color-red: rgb(251, 255, 38) ;
 }
 
+section[id] {
+    scroll-margin-top: 150px;
+}
+
+
 body{
     margin: 0;
     padding: 0;
@@ -114,6 +119,10 @@ body{
     
 }
 
+.hola::before {
+    width: 100%;
+    filter: drop-shadow(1px 1px 16px var(--color-item));
+}
 
 
 .box_items_nav {
