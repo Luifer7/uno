@@ -15,6 +15,7 @@ function menuResponsive() {
     document.getElementById('secciones_cards').classList.toggle('ocultar_seccion');
     document.getElementById('particles-js').classList.toggle('desaparecer_secciones');
     document.getElementById('juan').classList.toggle('ocultar_seccion');
+    document.getElementById('luis').classList.toggle('ocultar_seccion');
 }
 
 
@@ -24,6 +25,7 @@ function CerrarMenuResponsive() {
     document.getElementById('particles-js').classList.toggle('desaparecer_secciones');
     document.getElementById('secciones_cards').classList.toggle('ocultar_seccion');
     document.getElementById('juan').classList.toggle('ocultar_seccion');
+    document.getElementById('luis').classList.toggle('ocultar_seccion');
 }
 
 
