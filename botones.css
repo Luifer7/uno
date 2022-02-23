@@ -52,7 +52,7 @@
 }
 
 .pixel_boton:hover {
-    background: #ec0b36 url(/img/pixel.png);
+    background: #ec0b36 url(img/pixel.png);
     color: rgb(255, 255, 255);
 
     transition-delay: 0.7s;
