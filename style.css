@@ -57,11 +57,11 @@ body{
     line-height: 40px;
     outline: none;
 
-    animation: animate 5s alternate infinite;
+    animation: animatelogo 5s alternate infinite;
      
 }
 
-@keyframes animate {
+@keyframes animatelogo {
     0%, 18%, 20%, 50.1%, 60%, 65.1%, 80%, 90.1%, 92% 
     {
         color: rgba(255, 255, 255, 0.301);
