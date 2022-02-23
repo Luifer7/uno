@@ -9,7 +9,9 @@
     align-items: center;
     justify-content: center; 
 }
-
+.ocultar_esta_vaina {
+    display: none;
+}
 .caja_botones {
     width: 95%;
     height: 95%;
