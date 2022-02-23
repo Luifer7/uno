@@ -50,7 +50,7 @@ function irASecciones() {
     document.getElementById('menu_responsive').classList.toggle('hide');
     document.getElementById('particles-js').classList.toggle('desaparecer_secciones');
     document.getElementById('secciones_cards').classList.toggle('ocultar_seccion');
-    document.getElementById('btn').classList.toggle('ocultar_seccion');
+    document.getElementById('btn').classList.toggle('ocultar_esta_vaina');
     
 
 }
