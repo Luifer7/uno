@@ -82,11 +82,18 @@ path {
 
 p {
     position: absolute;
-    color: white;
+    color: #21ebff;
     margin-bottom: -90px;
+    font-size: 17px;
 }
 
 
+
+@media (max-width: 450px) {
+    p {
+        font-size: 10px;
+    }
+}
 
 
 
