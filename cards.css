@@ -119,6 +119,44 @@ img {
 }
 
 
+.circulo {
+    position: absolute;
+   
+    z-index: 0;
+
+    transform-style: preserve-3d;
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+
+    animation: cardanimation .4s ease-in alternate infinite;
+
+}
+
+@keyframes cardanimation {
+    0% {
+        transform: translateY(-240px);
+    }
+    18%, 20%, 50.1%, 60%, 65.1%, 80%, 90.1%, 92% {
+        background: rgba(255, 255, 255, 0.301);
+        box-shadow: none;
+    }
+    18.1%, 20.1%, 30%, 50%, 60.1%, 1%, 65%, 80.1%, 90%, 92.1%,  100% {
+        background: rgb(255, 255, 255);
+        box-shadow: 0 0 10px rgb(16, 124, 167),
+        0 0 20px rgb(16, 124, 167),
+        0 0 40px rgb(16, 124, 167),
+        0 0 80px rgb(16, 124, 167),
+        0 0 160px rgb(16, 124, 167);
+    }
+   
+    100% {
+        transform: translateY(140px);
+    }
+}
+
+
+
 @media (max-width: 940px) {
 
     .box {
