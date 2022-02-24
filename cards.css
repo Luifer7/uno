@@ -129,7 +129,7 @@ img {
     height: 10px;
     border-radius: 50px;
 
-    animation: cardanimation .4s ease-in alternate infinite;
+    animation: cardanimation .6s ease-in alternate infinite;
 
 }
 
