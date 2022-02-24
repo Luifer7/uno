@@ -79,6 +79,39 @@
 }
 
 
+.skills {
+    position: absolute;
+    background-size: cover;
+    background-position-y: center;
+    width: 100%;
+    height: 100%;  
+}
+
+.skills_react {
+    background-image: url(/img/react_uno.png);
+}
+.skills_js {
+    background-image: url(/img/js_uno.png);
+}
+.skills_sass {
+    background-image: url(/img/sass_uno.png);
+}
+.skills_css {
+    background-image: url(/img/css_uno.png);
+}
+.skills_html {
+    background-image: url(/img/html_uno.png);
+}
+.skills_git {
+    background-image: url(/img/git_uno.png);
+}
+.skills_bootstrap {
+    background-image: url(/img/bootstrap_uno.png);
+}
+.skills_php {
+    background-image: url(/img/php_uno.png);
+}
+
 
 @media (max-width: 940px) {
 
