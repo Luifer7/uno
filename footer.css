@@ -80,19 +80,12 @@ path {
     
 }
 
-@keyframes animatenueve {
-    0%, 3%, 5%, 8%, 11%, 18%, 20%, 40%, 60%, 75%, 85%, 92%, 94%, 96%, 98%
-    {
-        color: white;
-        
-    }
-    2%, 4%, 7%, 9%, 13%, 24%, 30%, 50%, 70%, 80%, 90%, 93%, 95%, 97%,  99%,  100%{
-        
-        color: rgb(16, 124, 167);
-        
-                   
-    }
+p {
+    position: absolute;
+    color: white;
+    margin-bottom: -90px;
 }
+
 
 
 
