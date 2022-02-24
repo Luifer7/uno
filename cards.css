@@ -79,6 +79,12 @@
 }
 
 
+img {
+    background-image: url(img/bg.jpg); background-size: cover;
+    
+}
+
+
 .skills {
     position: absolute;
     background-size: cover;
@@ -88,28 +94,28 @@
 }
 
 .skills_react {
-    background-image: url(/img/react_uno.png);
+    background-image: url(img/react_uno.png);
 }
 .skills_js {
-    background-image: url(/img/js_uno.png);
+    background-image: url(img/js_uno.png);
 }
 .skills_sass {
-    background-image: url(/img/sass_uno.png);
+    background-image: url(img/sass_uno.png);
 }
 .skills_css {
-    background-image: url(/img/css_uno.png);
+    background-image: url(img/css_uno.png);
 }
 .skills_html {
-    background-image: url(/img/html_uno.png);
+    background-image: url(img/html_uno.png);
 }
 .skills_git {
-    background-image: url(/img/git_uno.png);
+    background-image: url(img/git_uno.png);
 }
 .skills_bootstrap {
-    background-image: url(/img/bootstrap_uno.png);
+    background-image: url(img/bootstrap_uno.png);
 }
 .skills_php {
-    background-image: url(/img/php_uno.png);
+    background-image: url(img/php_uno.png);
 }
 
 
